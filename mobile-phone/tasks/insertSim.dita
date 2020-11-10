@@ -4,9 +4,10 @@
     <title>Inserting the SIM card</title>
     <shortdesc>The phones accept micro-SIM cards.</shortdesc>
     <taskbody>
-        <prereq id="prereq_ry5_1jt_pnb">You need a screwdriver and a micro-SIM.</prereq>
+        <prereq id="prereq_ry5_1jt_pnb">You need a screwdriver and a micro-SIM. Test.</prereq>
         <context>
-            <p>Make sure that your phone is turned off.</p>
+            <p>Make sure that your phone is turned off. Please!</p>
+            <p>A new </p>
         </context>
         <steps>
             <step conref="removingBattery.dita#task_3ml_qm3_rf/firstStep"
