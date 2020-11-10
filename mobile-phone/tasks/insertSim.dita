@@ -8,6 +8,7 @@
         <context>
             <p>Make sure that your phone is turned off. This is important.</p>
             <p>The steps to follow.</p>
+            <p>p1</p>
         </context>
         <steps>
             <step conref="removingBattery.dita#task_3ml_qm3_rf/firstStep"
@@ -22,6 +23,9 @@
             <step conref="insertBattery.dita#task_ww1_fh3_rf/firstStep"
                 conrefend="insertBattery.dita#task_ww1_fh3_rf/lastStep">
                 <cmd/>
+            </step>
+             <step >
+                 <cmd>HHH</cmd>
             </step>
         </steps>
     </taskbody>
