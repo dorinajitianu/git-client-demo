@@ -4,6 +4,7 @@
     <title>Inserting the SIM card</title>
     <shortdesc>The phones accept micro-SIM cards.</shortdesc>
     <taskbody>
+        <prereq id="prereq_ry5_1jt_pnb">You need a screwdriver and a micro-SIM.</prereq>
         <context>
             <p>Make sure that your phone is turned off.</p>
         </context>
