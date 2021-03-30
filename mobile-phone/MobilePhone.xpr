@@ -280,7 +280,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>DITA Map WebHelp Responsive - Copy</String>
+                                        <String>DITA Map WebHelp Responsive - Edit Links</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -324,10 +324,10 @@
                                             <Boolean>false</Boolean>
                                         </field>
                                         <field name="useAppliedConditionSet">
-                                            <Boolean>false</Boolean>
+                                            <Boolean>true</Boolean>
                                         </field>
                                         <field name="appliedConditionSet">
-                                            <String>Technical guide X1000</String>
+                                            <null/>
                                         </field>
                                         <field name="ditavalFilePath">
                                             <null/>
@@ -442,32 +442,48 @@
                                         </ditaParameter>
                                         <ditaParameter>
                                             <field name="name">
-                                                <String>clean.temp</String>
+                                                <String>editlink.additional.query.parameters</String>
                                             </field>
                                             <field name="description">
                                                 <null/>
                                             </field>
                                             <field name="value">
-                                                <String>no</String>
+                                                <String>&amp;showDitaMapView=true</String>
                                             </field>
                                             <field name="defaultValue">
-                                                <String>yes</String>
+                                                <null/>
                                             </field>
                                             <field name="type">
-                                                <Integer>4</Integer>
+                                                <Integer>0</Integer>
                                             </field>
                                             <field name="possibleValues">
-                                                <String-array>
-                                                    <String>yes</String>
-                                                    <String>no</String>
-                                                    <null/>
-                                                </String-array>
+                                                <null/>
                                             </field>
                                             <field name="possibleValuesDescriptions">
-                                                <String-array>
-                                                    <String></String>
-                                                    <String></String>
-                                                </String-array>
+                                                <null/>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>editlink.ditamap.edit.url</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>https://www.oxygenxml.com/oxygen-xml-web-author/app/oxygen.html?url=gitgh%3A%2F%2Fhttps%253A%252F%252Fgithub.com%252FAlexJitianu%252Fgit-client-demo%2Fmain%2Fmobile-phone%2FmobilePhone.ditamap</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
                                             </field>
                                         </ditaParameter>
                                         <ditaParameter>
@@ -527,7 +543,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>DITA Map WebHelp Responsive - Copy</String>
+                                    <String>DITA Map WebHelp Responsive - Edit Links</String>
                                 </field>
                                 <field name="baseURL">
                                     <null/>
